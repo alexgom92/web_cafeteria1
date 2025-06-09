@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Aroma</title>
+    <link rel="stylesheet" href="cafeteria.css">
+</head>
+<body>
+    
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="overlay">
+            <div class="container">
+                <h1>Bienvenido a Cafetería Aroma</h1>
+                <p>Disfruta del mejor café artesanal en un ambiente acogedor</p>
+                <a href="#menu" class="btn">Ver nuestro menú</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- Sobre Nosotros-->
+    <section class="sobre-nosotros">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>
+                En Cafetería Aroma creemos en el poder de un buen café. Seleccionamos granos de alta calidad y los preparamos con mimo para ofrecerte una experiencia única en cada taza.
+            </p>
+            <p>
+                Nuestro local combina tradición y modernidad, convirtiéndose en un lugar perfecto para relajarte, trabajar o charlar con amigos mientras disfrutas de nuestros productos artesanales.
+            </p>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="galeria">
+        <h2>Nuestra Carta</h2>
+
+        <div class="filtros">
+            <button class="filtro" data-categoria="desayuno" aria-label="Filtrar por desayunos">Desayunos</button>
+            <button class="filtro" data-categoria="bebida" aria-label="Filtrar por desayunos">Bebidas</button>
+            <button class="filtro" data-categoria="postre" aria-label="Filtrar por postres">Postres</button>
+        </div>
+
+        <div class="contenedor-galeria">
+            <div class="item-galeria bebida">
+                <img src="img/cafe_diseno.jpeg" alt="Café">
+            </div>
+            <div class="item-galeria bebida">
+                <img src="img/zumo.jpg" alt="Zumo natural">
+            </div>
+            <div class="item-galeria bebida">
+                <img src="img/smoothie.jpeg" alt="Smoothie natural">
+            </div>
+            <div class="item-galeria desayuno">
+                <img src="img/tostadas.jpeg" alt="Tostadas">
+            </div>
+            <div class="item-galeria desayuno">
+                <img src="img/croissant.jpg" alt="Croissant relleno">
+            </div>
+            <div class="item-galeria desayuno">
+                <img src="img/tortilla.jpeg" alt="Tortilla de patata">
+            </div>
+            <div class="item-galeria postre">
+                <img src="img/tarta_queso.jpeg" alt="Tarta queso casera">
+            </div>
+            <div class="item-galeria postre">
+                <img src="img/tarta_oreo.jpg" alt="Tarta Oreo">
+            </div>
+            <div class="item-galeria postre">
+                <img src="img/crepes.jpg" alt="Crepes">
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="galería-local">
+        <div class="container">
+            <h2>Nuestro local</h2>
+            <div class="galeria-grid">
+                <img src="img/local.jpg" alt="Nuestro local">
+                <img src="img/cafeteria.jpeg" alt="Interior cafeteria">
+                <img src="img/cocina.jpg" alt="Nuestra cocina">
+                <img src="img/terraza.jpeg" alt="Terraza">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto y Ubicación -->
+    <section class="contacto">
+        <div class="container">
+            <h2>Contacto y Ubicación</h2>
+
+            <div class="info-contacto">
+                <div class="datos">
+                    <p><strong>Dirección:</strong> Calle del Café 123, Madrid</p>
+                    <p><strong>Horario:</strong> Lunes a Domingo, de 08:00 a 20:00</p>
+                    <p><strong>Teléfono:</strong> 600 123 456</p>
+                    <p><strong>Email:</strong> contacto@cafearoma.es</p>
+                </div>
+
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.420807129392!2d-3.703790084603422!3d40.41677597936454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997d3f38e6d%3A0x7c7f5b03f3d9e3b!2sPuerta%20del%20Sol!5e0!3m2!1ses!2ses!4v1680000000000!5m2!1ses!2ses"
+                        width="100%"
+                        height="250"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section> 
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="marca">Cafetería Aroma</p>
+
+            <div class="redes">
+                <a href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="img/tiktok.svg" alt="Tiktok"></a>
+            </div>
+
+            <p class="legal">&copy; 2025 Cafetería Aroma. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <button id="btn-volver-arriba" title="Volver Arriba" aria-label="Volver al principio de la página">
+        <span aria-hidden="true">↑</span> Volver arriba
+    </button>
+    <script src="cafeteria.js"></script>
+</body>
+</html>
+
+
