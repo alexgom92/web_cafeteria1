@@ -19,6 +19,7 @@
         </div>
     </header>
 
+    <main>
     <!-- Sobre Nosotros-->
     <section class="sobre-nosotros">
         <div class="container">
@@ -37,37 +38,50 @@
         <h2>Nuestra Carta</h2>
 
         <div class="filtros">
-            <button class="filtro activo" data-categoria="todos">Todo</button>
-            <button class="filtro" data-categoria="desayuno">Desayunos</button>
-            <button class="filtro" data-categoria="bebida">Bebidas</button>
-            <button class="filtro" data-categoria="postre">Postres</button>
+            <button class="filtro" data-categoria="desayuno" aria-label="Filtrar por desayunos">Desayunos</button>
+            <button class="filtro" data-categoria="bebida" aria-label="Filtrar por desayunos">Bebidas</button>
+            <button class="filtro" data-categoria="postre" aria-label="Filtrar por postres">Postres</button>
         </div>
 
         <div class="contenedor-galeria">
-            <div class="item-galeria desayuno">
-                <img src="img/cafe.jpeg" alt="Café y tostadas">
+            <div class="item-galeria bebida">
+                <img src="img/cafe_diseno.jpeg" alt="Café">
             </div>
             <div class="item-galeria bebida">
                 <img src="img/zumo.jpg" alt="Zumo natural">
             </div>
-            <div class="item-galeria postre">
-                <img src="img/tarta_queso.jpeg" alt="Tarta casera">
+            <div class="item-galeria bebida">
+                <img src="img/smoothie.jpeg" alt="Smoothie natural">
+            </div>
+            <div class="item-galeria desayuno">
+                <img src="img/tostadas.jpeg" alt="Tostadas">
             </div>
             <div class="item-galeria desayuno">
                 <img src="img/croissant.jpg" alt="Croissant relleno">
             </div>
+            <div class="item-galeria desayuno">
+                <img src="img/tortilla.jpeg" alt="Tortilla de patata">
+            </div>
+            <div class="item-galeria postre">
+                <img src="img/tarta_queso.jpeg" alt="Tarta queso casera">
+            </div>
+            <div class="item-galeria postre">
+                <img src="img/tarta_oreo.jpg" alt="Tarta Oreo">
+            </div>
+            <div class="item-galeria postre">
+                <img src="img/crepes.jpg" alt="Crepes">
+            </div>
+            
         </div>
     </section>
 
-    <section class="galería">
+    <section class="galería-local">
         <div class="container">
-            <h2>Galería</h2>
+            <h2>Nuestro local</h2>
             <div class="galeria-grid">
-                <img src="img/Caffe_Latte_cup.jpeg" alt="Café servido">
-                <img src="img/cafe_diseno.jpeg" alt="Diseños café">
-                <img src="img/tarta_queso.jpeg" alt="Tarta de queso">
-                <img src="img/tostadas.jpeg" alt="Tostadas">
+                <img src="img/local.jpg" alt="Nuestro local">
                 <img src="img/cafeteria.jpeg" alt="Interior cafeteria">
+                <img src="img/cocina.jpg" alt="Nuestra cocina">
                 <img src="img/terraza.jpeg" alt="Terraza">
             </div>
         </div>
@@ -99,6 +113,7 @@
             </div>
         </div>
     </section> 
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -114,8 +129,8 @@
             <p class="legal">&copy; 2025 Cafetería Aroma. Todos los derechos reservados.</p>
         </div>
     </footer>
-    <button id="btn-volver-arriba" title="Volver Arriba">
-        <span>↑ Volver arriba</span>
+    <button id="btn-volver-arriba" title="Volver Arriba" aria-label="Volver al principio de la página">
+        <span aria-hidden="true">↑</span> Volver arriba
     </button>
     <script src="cafeteria.js"></script>
 </body>
